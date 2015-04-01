@@ -4,7 +4,7 @@ lsi: false
 source: . # top-level directory
 # --------------------------
 
-title: DBFlute EMecha
+title: DBFlute EMecha Project
 
 encoding: 'utf-8'
 

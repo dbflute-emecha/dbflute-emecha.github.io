@@ -9,6 +9,17 @@ category: top
 <div id="content" style="text-align: center;">
 <h1 style="background-position-x: center;">{{ page.title }}</h1>
 <h2 style="background-position-x: center;"><a href="{{ site.eclipse_doc_url }}/">for Eclipse</a></h2>
+<script type="text/javascript">
+/*<![CDATA[*/
+function jumpReleaseTag(tagName) {
+	var url = "{{ site.github.owner_url }}/dbflute-emecha-eclipse/releases/tag/" + tagName;
+	window.open(url,"_blank");
+}
+/*]]>*/
+</script>
+<ul>
+<li>2015/04/17 <a href="#" onclick="jumpReleaseTag('v0.6.2');">v0.6.2</a></li>
+</ul>
 {% include footer.html %}
 </div>
 </div>
